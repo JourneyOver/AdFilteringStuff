@@ -218,3 +218,6 @@ cdn.discordapp.com
 cdn.optimizely.com
 ea.com
 netflix.com
+res.cloudinary.com
+rover.ebay.com
+tomshardware.com
