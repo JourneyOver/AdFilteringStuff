@@ -29,7 +29,7 @@ if ! (which gawk > /dev/null); then
   echo -e " ${TICK} \e[32m Finished \e[0m"
 fi
 
-curl -sS https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt | sudo tee -a /etc/pihole/whitelist.txt >/dev/null
+curl -sS https://raw.githubusercontent.com/JourneyOver/pihole/master/whitelist/domains/whitelist.txt | sudo tee -a /etc/pihole/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding to whitelist... \e[0m"
 sleep 0.5
 echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
