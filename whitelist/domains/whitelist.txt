@@ -214,3 +214,6 @@ www.synology.com
 synology.com
 instantmessaging-pa.googleapis.com
 feeds.feedburner.com
+cdn.discordapp.com
+cdn.optimizely.com
+ea.com
