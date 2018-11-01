@@ -221,3 +221,5 @@ netflix.com
 res.cloudinary.com
 rover.ebay.com
 tomshardware.com
+storage.googleapis.com
+www.storage.googleapis.com
