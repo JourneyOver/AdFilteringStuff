@@ -223,3 +223,5 @@ rover.ebay.com
 tomshardware.com
 storage.googleapis.com
 www.storage.googleapis.com
+howtogeek.com
+www.howtogeek.com
