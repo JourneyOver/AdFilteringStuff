@@ -6,3 +6,4 @@ rover.ebay.com
 tomshardware.com
 howtogeek.com
 www.howtogeek.com
+imasdk.googleapis.com #Allows plex web shows to work
