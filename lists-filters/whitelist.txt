@@ -1,3 +1,4 @@
+# Main stuff
 cdn.discordapp.com
 cdn.optimizely.com
 ea.com
@@ -6,3 +7,22 @@ rover.ebay.com
 tomshardware.com
 howtogeek.com
 www.howtogeek.com
+
+# For MorphTV
+openload.co
+www.rapidvideo.com
+jaizouji.com
+fuxoasim.link
+moneymakercdn.com
+jsc.mgid.com
+velocitycdn.com
+www.speedvid.net
+
+# Torrent Trackers
+tracker.istole.it
+tracker.openbittorrent.com
+tracker.coppersurfer.tk
+tracker.leechers-paradise.org
+tracker.opentrackr.org
+tracker.publicbt.com
+tracker.trackerfix.com
