@@ -26,3 +26,10 @@ tracker.leechers-paradise.org
 tracker.opentrackr.org
 tracker.publicbt.com
 tracker.trackerfix.com
+
+# Plex Podcasts
+traffic.libsyn.com
+traffic.megaphone.fm
+
+# Plex Webshows
+imasdk.googleapis.com
