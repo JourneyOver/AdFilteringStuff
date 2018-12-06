@@ -26,6 +26,7 @@ tracker.leechers-paradise.org
 tracker.opentrackr.org
 tracker.publicbt.com
 tracker.trackerfix.com
+tracker.internetwarriors.net
 
 # Plex Podcasts
 traffic.libsyn.com
