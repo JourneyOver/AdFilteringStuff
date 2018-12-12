@@ -35,8 +35,11 @@ sudo dpkg-reconfigure tzdata
 whiptail --title "Pihole Speedtest Mod" --msgbox "Get latest package from github" 8 78
 
 cd /var/www/html
+
 sudo mv admin pihole_admin
-sudo git clone https://github.com/arevindh/AdminLTE admin¹
+
+sudo git clone https://github.com/arevindh/AdminLTE admin
+
 cd admin
 
 if [ ! -f /etc/pihole/speedtest.db ]; then
@@ -48,8 +51,11 @@ fi
 whiptail --title "Pihole Speedtest Mod" --msgbox "Updating webpage.sh" 8 78
 
 cd /opt/pihole/
+
 sudo mv webpage.sh webpage.sh.org
+
 sudo wget https://github.com/arevindh/pi-hole/raw/master/advanced/Scripts/webpage.sh
+
 sudo chmod +x webpage.sh
 
 whiptail --title "Pihole Speedtest Mod" --msgbox "Install complete" 8 78
