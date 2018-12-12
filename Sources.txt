@@ -1,6 +1,5 @@
 speedtest -- https://github.com/arevindh/pihole-speedtest
 whitelist -- https://github.com/anudeepND/whitelist
 regex blocklist -- https://github.com/mmotti/pihole-regex
-youtube -- https://github.com/kboghdady/youTube_ads_4_pi-hole
 midnight theme -- https://github.com/jacobbates/pi-hole-midnight
 helper -- https://github.com/Kevin-De-Koninck/pi-hole-helpers

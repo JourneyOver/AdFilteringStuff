@@ -13,14 +13,14 @@ whiptail --title "Pihole Speedtest Mod" --msgbox "Pihole Speedtest Mod installer
 if php -v | grep 'PHP 7' > /dev/null ; then 
 
 	whiptail --title "Pihole Speedtest Mod" --msgbox "PHP 7.x found. Installing php7.0-sqlite " 8 78
-	sudo apt install php7.0-sqlite
+	sudo apt install php7.0-sqlite -y
 else
 	whiptail --title "Pihole Speedtest Mod" --msgbox "PHP 5.x found. Installing php5-sqlite" 8 78
-	sudo apt install php5-sqlite
+	sudo apt install php5-sqlite -y
 fi
  
 
-whiptail --title "Pihole Speedtest Mod" --msgbox "Instaling requiered pakages python-pip,speedtest-cli,sqlite3" 8 78
+whiptail --title "Pihole Speedtest Mod" --msgbox "Installing required packages python-pip,speedtest-cli,sqlite3" 8 78
 
 sudo apt install -y python-pip &> /dev/null
  
@@ -32,28 +32,24 @@ whiptail --title "Pihole Speedtest Mod" --msgbox "Please set your timezone once 
 
 sudo dpkg-reconfigure tzdata  
 
-whiptail --title "Pihole Speedtest Mod" --msgbox "Get latest pakage from github" 8 78
-
-sudo su
+whiptail --title "Pihole Speedtest Mod" --msgbox "Get latest package from github" 8 78
 
 cd /var/www/html
-
-mv admin pihole_admin
-
-git clone https://github.com/arevindh/AdminLTE admin
-
+sudo mv admin pihole_admin
+sudo git clone https://github.com/arevindh/AdminLTE admin¹
 cd admin
 
 if [ ! -f /etc/pihole/speedtest.db ]; then
 	whiptail --title "Pihole Speedtest Mod" --msgbox "Initializing database" 8 78
 	#Create new DB in /etc/pihole/
-	cp scripts/pi-hole/speedtest/speedtest.db /etc/pihole/
+	sudo cp scripts/pi-hole/speedtest/speedtest.db /etc/pihole/
 fi
 
 whiptail --title "Pihole Speedtest Mod" --msgbox "Updating webpage.sh" 8 78
 
 cd /opt/pihole/
-mv webpage.sh webpage.sh.org
-wget https://github.com/arevindh/pi-hole/raw/master/advanced/Scripts/webpage.sh
+sudo mv webpage.sh webpage.sh.org
+sudo wget https://github.com/arevindh/pi-hole/raw/master/advanced/Scripts/webpage.sh
+sudo chmod +x webpage.sh
 
 whiptail --title "Pihole Speedtest Mod" --msgbox "Install complete" 8 78
