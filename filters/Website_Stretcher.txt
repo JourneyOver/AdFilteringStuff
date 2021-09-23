@@ -1,0 +1,198 @@
+! Title: 🖥️ Website Stretcher
+! Version: 1.0.0
+! Expires: 3 days
+! Description: Have you ever felt bothered by how many websites still think that everyone are using narrow monitors? Well, here's how to stretch them out like a piece of gum!
+! Note that the list is designed for screens that are ≥1440px wide, and it should not be used on phones, pre-2007 monitors, or cheap laptops.
+! ————————————————————————————————————————
+
+! Category: Pixiv
+! Bookmarks
+pixiv.net##div:style(max-width: none !important)
+pixiv.net##figcaption > div > div:style(width: 90% !important)
+pixiv.net##header > div:style(width: 80vw !important)
+pixiv.net##header > div li:style(margin-right: 35px !important)
+
+! Search pages
+pixiv.net##.layout-body:style(width:98vw !important)
+pixiv.net###wrapper:style(margin-left: 2px !important; margin-right: 2px !important; width: 98vw !important)
+pixiv.net###js-react-search-mid > div:style(margin-left: 0px !important; margin-right: 0px !important)
+pixiv.net##._premium-lead-popular-d-body:style(max-width: 100vw !important)
+
+! Front page
+pixiv.net##.contents-east:style(width:95vw)
+pixiv.net##.contents-main:style(width:68vw)
+pixiv.net##.pixivision__list:style(width: 100% !important)
+pixiv.net##.project-description:style(width: 80% !important)
+
+! The "Info" section on the top of the front page
+pixiv.net##.top-info-content > .info:style(width: 100% !important; text-align: center !important)
+pixiv.net##.top-info-content > .info > .category:style(display: initial !important)
+
+! Bookmarks
+pixiv.net##.layout-column-2:style(width:85vw !important;float:right)
+pixiv.net##.layout-a:style(width:98vw !important;)
+
+! Image collage on image pages
+pixiv.net##div[style^="position: relative;"]:style(width: unset !important)
+pixiv.net##main[class]:style(min-width: 1060px !important; width: 75px !important)
+
+! The search bar on the front page and on search pages
+pixiv.net##[class="ui-search"]:style(width: 460px !important)
+pixiv.net##[class="ui-search"] > .container:style(width: 400px !important)
+pixiv.net##[class="ui-search"] > .container > #suggest-input:style(width: 400px !important)
+
+! The search bar on image pages
+pixiv.net##form[action="/search.php"]:style(margin-left: 0px !important; width: 460px !important)
+pixiv.net##input[placeholder="Search results"]:style(width: 400px !important)
+
+! Fix for tag lists on artist pages
+pixiv.net##div[role=presentation] > div > form:style(min-width: 600px !important)
+
+! Image pages
+pixiv.net##.sc-AykKD:style(width: 97vw !important)
+
+! ——————————————————————————————————————————————————————————————————
+
+! Category: Google Play
+! General entries
+play.google.com##.card-list.two-cards:style(margin-left: 220px !important; margin-right:15px)
+play.google.com##.cluster-heading:style(margin-left: 220px !important)
+
+! Article pages
+play.google.com##.UTg3hd:style(margin-left:5px !important;margin-top:5px !important;max-width:none !important)
+play.google.com##.tlG8q:style(margin-left:10px !important;margin-top:10px !important)
+play.google.com##.LXrl4c:style(width: 860px !important)
+play.google.com##.hkhL9e:style(width: 220px !important)
+play.google.com##.hAyfc:style(width: 250px !important)
+play.google.com##.W4P4ne:style(padding-left: 10px !important;padding-right: 10px !important)
+
+! User reviews
+play.google.com##.UD7Dzf:style(width: 762px !important)
+play.google.com##.W4P4nw:style(margin-left: 10px !important;margin-right: 10px !important)
+
+! Article preview images
+play.google.com##.XYLQ2b:style(width: 900px !important)
+play.google.com##.Eg31qe:style(width: 780px !important)
+
+! Google Play Books article pages
+play.google.com##.Njo8s:style(width:900px !important)
+
+! Google Play Books notes on how to read content
+play.google.com##.wAHRxd:style(width:420px !important;max-width:450px !important)
+
+! Google Play Books owned books list
+play.google.com##.body-content:style(margin-left:205px !important)
+
+! Google Play Music article pages
+play.google.com##div.main-content:style(margin-left:7px !important)
+play.google.com##div.meta-info:style(width:200px !important)
+
+! ————————————————————————————————————————————————————————————————————————
+
+! Category: GitHub
+! This category is based on entries from 'GitHub Wide', which is maintained by https://github.com/mdo at https://github.com/mdo/github-wide, and which is licenced under MIT.
+! General entries
+github.com##.container-lg:style(max-width: none !important)
+github.com##.container:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.container-lg:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+github.com##.file-header:after:style(clear: left !important)
+github.com##.container-xl:style(max-width: none !important)
+
+! Repo Next layout
+github.com##.repository-content:style(width: 100% !important)
+github.com##.repository-with-sidebar:style(padding-right: 60px !important)
+github.com##.repository-with-sidebar > .repository-sidebar:style(margin-right: -60px !important)
+github.com##.summary-stats:style(display: table; width: 100%)
+github.com##.authors-and-code:style(display: table; width: 100%)
+github.com##.summary-stats > li:style(width: 25%)
+github.com##.authors-and-code > .section:style(width: 50%)
+
+! Repo Next Code page
+github.com##.with-full-navigation:style(padding-right: 190px !important)
+github.com##.with-full-navigation > .repository-sidebar:style(margin-right: -190px !important)
+
+! Issues/PRs
+github.com##.discussion-sidebar:style(width: 220px !important)
+github.com##.discussion-timeline:style(width: 100% !important)
+github.com##.col-9:style(width: 100% !important)
+github.com###discussion_bucket > .col-12.col-md-9:style(width: calc(100vw - 260px) !important)
+github.com##.js-discussion:style(width: calc(100vw - 260px) !important)
+github.com###partial-discussion-sidebar[data-channel^=issue]:style(margin-left: 24px !important)
+
+! New issues and Dashboard
+github.com###dashboard:style(position: relative !important)
+github.com##.new-issue-form:style(position: relative !important)
+github.com##body:not(.full-width) .dashboard-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##.new-issue-form > .discussion-sidebar:style(position: absolute !important; top: 0 !important; right: 0 !important)
+github.com##button.discussion-sidebar-toggle:style(width: 100% !important)
+github.com##.timeline-new-comment:style(max-width: none !important)
+
+! Dashboard
+github.com##body:not(.full-width) .news:style(float: none !important; margin-right: 360px !important)
+
+! Settings
+github.com##.settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.repo-settings-content:style(float: none !important; width: auto !important; overflow: auto !important)
+github.com##.container > .settings-content, .repo-settings-content:style(margin-left: 260px !important)
+github.com###repo-settings > .menu-container:style(width: 240px !important)
+github.com###js-flash-container > .flash-messages:style(width: 100% !important; padding-left: 30px !important; padding-right: 30px !important)
+
+! Profile avatar tooltip
+github.com##.u-photo .avatar:style(width: 230px !important)
+github.com##.h-card:style(width: 230px; margin-right: 16px)
+
+! Commit feed notes on a repo's front page
+github.com##.commit-desc > .text-small:style(max-width: none !important)
+
+! Commit comments
+github.com###comments > .timeline-comment-wrapper:style(width: calc(100vw - 240px) !important)
+
+! Filename textfields
+github.com##.js-blob-filename:style(width: 400px !important)
+
+! —————————————————————————————————————————————————————————————————————
+
+! Category: Patreon
+! General entries
+patreon.com##.sc-Rmtcm:style(max-width: none !important)
+patreon.com##.gHmKBb:style(white-space: normal !important)
+patreon.com##div.HztiF.sc-cvbbAY:style(max-width: 380px !important)
+patreon.com##div > iframe:style(left: 0px !important)
+
+! List of active pledges
+patreon.com##div > div[data-tag="pledges-your-pledges-pledge-info"]:style(width: 190% !important)
+patreon.com##.FhviP:style(max-width: 95vw !important)
+patreon.com##div.gRYtWI:nth-of-type(1):style(max-width: 450px !important)
+
+! —————————————————————————————————————————————————————————————————————
+
+! Category: SoundCloud
+soundcloud.com##.l-container:style(width: 95vw !important)
+soundcloud.com##body:style(background: none !important)
+
+! Making it easier to see the thumbnails in the video player bar
+soundcloud.com##.playbackSoundBadge__avatar > div > .sc-artwork:style(width: 46px !important; height: 46px !important)
+soundcloud.com##.playbackSoundBadge__avatar > div:style(width: 46px !important; height: 46px !important)
+soundcloud.com##.playbackSoundBadge__avatar:style(width: 46px !important; height: 46px !important; margin-right: 3px !important)
+
+! —————————————————————————————————————————————————————————————————————
+
+! Overcategory: Loosely assorted sites with less than 2 entries
+
+! Category: Bulbapedia
+bulbapedia.bulbagarden.net###content.mw-body:style(max-width: 95vw !important)
+
+! Category: GitLab
+gitlab.com##.container-fluid.container-limited:not(.breadcrumbs):style(max-width: 100% !important)
+gitlab.com##.wiki.md.file-content:style(max-width: none !important)
+
+! Category: PayPal
+! Account frontpage
+paypal.com##.vx_mainContent:style(max-width: 1500px !important)
+
+! Category: Bitwarden Vault
+vault.bitwarden.com##.container.page-content:style(width: 100%)
+
+! Category: Travis CI
+travis-ci.org##.wrapper-main:style(max-width: none !important; width: 92% !important)
+travis-ci.org##.main:style(max-width: none !important)

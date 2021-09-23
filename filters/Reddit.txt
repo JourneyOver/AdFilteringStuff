@@ -1,0 +1,20 @@
+! Title: 🎛 Reddit stuff
+! Version: 1.0.1
+! Expires: 5 days
+! —————————————————————————————————————————
+
+! Remove chat
+||www.reddit.com/chat/minimize$subdocument
+www.reddit.com###chat
+||old.reddit.com/chat/minimize$subdocument
+old.reddit.com###chat
+
+! Remove premium banner
+www.reddit.com##.premium-banner
+old.reddit.com##.premium-banner
+
+! Remove "happening now" & sidebox
+www.reddit.com##.happening-now
+www.reddit.com##.hohoho.sidebox > .morelink
+old.reddit.com##.happening-now
+old.reddit.com##.hohoho.sidebox > .morelink

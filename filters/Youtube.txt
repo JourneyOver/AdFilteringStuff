@@ -1,0 +1,14 @@
+! Title: ▶️ Youtube stuff
+! Version: 1.0.1
+! Expires: 5 days
+! —————————————————————————————————————————
+
+! Add exception to EasyList rule to let YouTube track video progress
+@@||s.youtube.com/api/stats/watchtime*
+
+! Block youtube end cards
+www.youtube.com##.ytp-ce-element-show
+
+! Hides certain Youtube Playlists
+www.youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLMFoDoF5WCjivNyZjSOWfzjD4TyFbvqhu"])
+www.youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLAi1BMiHavH9Av8WcaQQyNL9SoaqC5pHl"])

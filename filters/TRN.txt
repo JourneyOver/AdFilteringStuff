@@ -1,0 +1,13 @@
+! Title: 🎛 tracker.gg blocks
+! Version: 1.0.0
+! Expires: 5 days
+! Description: Removes all "Premium users don't see ads." things
+! —————————————————————————————————————————
+
+tracker.gg##.nav > .bordered-ad--inline.bordered-ad
+tracker.gg##.bordered-ad--inline.bordered-ad--mobile-large.bordered-ad
+tracker.gg##.size-inline-rectangle.ad-container
+tracker.gg##.bordered-ad
+tracker.gg##.size-half-page.ad-container
+halotracker.com###top-supportsite > .col-xs-12 > div:nth-of-type(1)
+fortnitetracker.com##.trn-topad
