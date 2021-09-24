@@ -1,1 +1,1 @@
-# pihole
+# Personal Filterlists for AdGuard
