@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 10July2021v1-Personal
+! Version: 24September2021v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -24,6 +24,7 @@ backloggery.com###linkbox
 
 ! Removes the "upgrade to office 365" box
 outlook.live.com##._4EQjiwXF4KIhqby_Qqf8J
+outlook.live.com##._2_1jS9rVrPuzoS0TkWEtIk
 
 ! Removes side bar asking to sign up for "Ad-Free Outlook"
 outlook.live.com##._1TpU2KF6f_EeQiytBaYj8I > ._3_hHr3kfEhbNYRFM5YJxH9 > ._23fxOotSm5HPNB1U_ZVw4i
