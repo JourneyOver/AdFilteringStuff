@@ -1,0 +1,11 @@
+! HaloWay Point. See: https://support.halowaypoint.com/hc/en-us/articles/360037573011-Achievements-Progress-Issues
+halowaypoint.com
+*.halowaypoint.com
+*.playfabapi.com
+vortex.data.microsoft.com
+
+! EA Play on Xbox
+activity.windows.com
+
+! Origin (Savegame-Sync)
+cloudsync-prod.s3.amazonaws.com
