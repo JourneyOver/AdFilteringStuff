@@ -1,21 +1,10 @@
 ! Title: 🎛 TrueAchievements - TrueSteamAchievements - TrueTrophies adblock fixes
-! Version: 1.0.0
+! Version: 27September2021v1
 ! Expires: 5 days
 ! Description: Removes all random mistakes from removing ads
 ! —————————————————————————————————————————
 
-! TrueAchievements
-
-! Fixes sidebar having huge missing spaces
-www.trueachievements.com##aside > .ad-wrap
-
-! Fixes huge blank area above profile
-www.trueachievements.com##div.middle:nth-of-type(1) > .ad-wrap
-
-! TrueSteamAchievements
-
-! Fixes sidebar having huge missing spaces
-truesteamachievements.com###nn_mpu1
-truesteamachievements.com###nn_mpu2
-
-! TrueTrophies
+! General (seen on all 3)
+www.trueachievements.com##.nn_player_w
+www.truetrophies.com##.nn_player_w
+truesteamachievements.com##.nn_player_w

@@ -1,5 +1,5 @@
 ! Title: 🎛 tracker.gg blocks
-! Version: 1.0.0
+! Version: 27September2021v1
 ! Expires: 5 days
 ! Description: Removes all "Premium users don't see ads." things
 ! —————————————————————————————————————————
