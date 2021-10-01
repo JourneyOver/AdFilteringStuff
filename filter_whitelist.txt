@@ -9,3 +9,11 @@ activity.windows.com
 
 ! Origin (Savegame-Sync)
 cloudsync-prod.s3.amazonaws.com
+
+! MS Office 365 (required for certain things -- see: https://elbruno.com/2021/06/08/pihole-%E2%9C%85-enable-self-events-data-microsoft-com-if-you-use-office-%F0%9F%93%84-and-you-probably-are)
+mobile.pipe.aria.microsoft.com
+browser.pipe.aria.microsoft.com
+self.events.data.microsoft.com
+
+# MS Settings
+settings-win.data.microsoft.com
