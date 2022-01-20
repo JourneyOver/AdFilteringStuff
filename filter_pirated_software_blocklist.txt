@@ -1,3 +1,8 @@
+# Title: Pirated Software Blocklist
+# Last modified: 20 Jan 2022
+#
+# =====================================================
+
 # sublime text editor
 0.0.0.0 license.sublimehq.com
 0.0.0.0 activation.winautomation.com

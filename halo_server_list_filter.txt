@@ -1,0 +1,72 @@
+# Title: Halo Server Filter
+# Last modified: 20 Jan 2022
+#
+# =====================================================
+
+# Johannesburg
+0.0.0.0 pfmsqos.southafricanorth.cloudapp.azure.com
+
+# New South Wales
+0.0.0.0 pfmsqos.australiaeast.cloudapp.azure.com
+
+# Victoria
+0.0.0.0 pfmsqos.australiasoutheast.cloudapp.azure.com
+
+# Pune
+0.0.0.0 pfmsqos.centralindia.cloudapp.azure.com
+
+# Hong Kong
+0.0.0.0 pfmsqos.eastasia.cloudapp.azure.com
+
+# Tokyo Saitama
+0.0.0.0 pfmsqos.japaneast.cloudapp.azure.com
+
+# Osaka
+0.0.0.0 pfmsqos.japanwest.cloudapp.azure.com
+
+# Seoul
+0.0.0.0 pfmsqos.koreacentral.cloudapp.azure.com
+
+# Singapore
+0.0.0.0 pfmsqos.southeastasia.cloudapp.azure.com
+
+# Paris
+0.0.0.0 pfmsqos.francecentral.cloudapp.azure.com
+
+# Ireland
+0.0.0.0 pfmsqos.northeurope.cloudapp.azure.com
+
+# London
+0.0.0.0 pfmsqos.uksouth.cloudapp.azure.com
+
+# Netherlands
+0.0.0.0 pfmsqos.westeurope.cloudapp.azure.com
+
+# Dubai
+0.0.0.0 pfmsqos.uaenorth.cloudapp.azure.com
+0.0.0.0 pfmsqssi.uaenorth.cloudapp.azure.com
+
+# Sao Paulo State
+0.0.0.0 pfmsqos.brazilsouth.cloudapp.azure.com
+
+# Iowa
+@@||pfmsqos.centralus.cloudapp.azure.com
+
+# Virginia
+@@||pfmsqos.eastus.cloudapp.azure.com
+@@||pfmsqos.eastus2.cloudapp.azure.com
+
+# Illinois
+@@||pfmsqos.northcentralus.cloudapp.azure.com
+
+# Texas
+@@||pfmsqos.southcentralus.cloudapp.azure.com
+
+# Wyoming
+@@||pfmsqos.westcentralus.cloudapp.azure.com
+
+# California
+@@||pfmsqos.westus.cloudapp.azure.com
+
+# Washington
+@@||pfmsqos.westus2.cloudapp.azure.com
