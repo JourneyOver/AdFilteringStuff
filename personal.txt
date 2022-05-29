@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 29May2022v1-Personal
+! Version: 29May2022v2-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -92,3 +92,6 @@ thunderstore.io##.mt-3.alert-info.alert
 
 ! Block all "pro" links (blocks ads as well)
 letterboxd.com##[href^="/pro/"]
+
+! Block Sidebar "please turn ads off notice"
+lost-ark.maxroll.gg##.half-page.adsmanager-ad-container
