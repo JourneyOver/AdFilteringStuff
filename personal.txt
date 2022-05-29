@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 24September2021v1-Personal
+! Version: 29May2022v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -86,3 +86,9 @@ thunderstore.io###header-banner-desktop
 thunderstore.io###header-banner-mobile
 ! Removes "We recommend using the Thunderstore Mod Manager or an alternative for installing mods" banner
 thunderstore.io##.mt-3.alert-info.alert
+
+! Block Ublock censor image
+||www.elitepvpers.com/images/ublock-censor-regime.png$image
+
+! Block all "pro" links (blocks ads as well)
+letterboxd.com##[href^="/pro/"]

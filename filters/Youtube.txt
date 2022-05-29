@@ -1,10 +1,12 @@
 ! Title: ▶️ Youtube stuff
-! Version: 27September2021v1
+! Version: 29May2022v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
 ! Add exception to EasyList rule to let YouTube track video progress
 @@||s.youtube.com/api/stats/watchtime*
+https://www.reddit.com/r/uBlockOrigin/comments/uyfrwm/youtube_watched_history_not_working_properly/
+@@||www.youtube.com/generate_204$xhr,domain=www.youtube.com
 
 ! Block youtube end cards
 www.youtube.com##.ytp-ce-element-show
