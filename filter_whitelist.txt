@@ -25,3 +25,6 @@ settings-win.data.microsoft.com
 
 # Xbox support
 statics-marketingsites-eus-ms-com.akamaized.net
+
+# addons.wago.io for WoWUP
+https://cdn.intergient.com/*
