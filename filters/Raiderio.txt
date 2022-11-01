@@ -1,5 +1,5 @@
 ! Title: 🎛 Raider.io stuff
-! Version: 27September2021v1
+! Version: 01November2022v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
@@ -19,3 +19,10 @@ raider.io##.rio-shadow--large.d-inline-block.slds-text-align--center
 ! Remove Patreon banners
 raider.io##.slds-medium-nowrap.slds-wrap.slds-grid.slds-text-heading--medium.slds-text-align--center.slds-p-around--small.rio-panel--patreon
 raider.io##.slds-medium-nowrap.slds-wrap.slds-grid.slds-text-align--center.slds-p-around--small.rio-panel--patreon
+raider.io##.slds-p-around--x-small.rio-hidden--small.slds-text-align--center
+raider.io##.fresnel-greaterThanOrEqual-xl.rio-right-pane.slds-shrink-none.slds-grow-none.slds-col > .slds-text-align--center > .slds-text-align--left.slds-p-around--small.rio-background--header.rio-block-message.rio-hidden--small
+raider.io##.sticky-inner-wrapper > .slds-text-align--center > .slds-text-align--left.slds-p-around--small.rio-background--header.rio-block-message.rio-hidden--small
+raider.io##.slds-medium-nowrap.slds-wrap.slds-grid.slds-text-align--center.rio-panel--patreon
+raider.io##.fresnel-greaterThan-sm.fresnel-container > .slds-m-bottom--large
+radier.io##.fresnel-greaterThanOrEqual-xl.rio-right-pane.slds-shrink-none.slds-grow-none.slds-col > div > section.slds-text-align--center > .slds-text-align--left.slds-p-around--small.rio-background--header.rio-block-message.rio-hidden--small
+raider.io##.fresnel-greaterThanOrEqual-xl.rio-right-pane.slds-shrink-none.slds-grow-none.slds-col > div > section.slds-text-align--center > .slds-text-align--left.slds-p-around--small.rio-background--header.rio-block-message.rio-hidden--small
