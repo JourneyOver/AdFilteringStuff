@@ -1,5 +1,5 @@
 # Title: Pirated Software Blocklist
-# Last modified: 20 Jan 2022
+# Last modified: 27 March 2023
 #
 # =====================================================
 
@@ -20,3 +20,6 @@
 0.0.0.0 ncc.avast.com
 0.0.0.0 ncc.avast.com.edgesuite.net
 0.0.0.0 ip-info.ff.avast.com
+
+# EaseUS
+0.0.0.0	activation.easeus.com
