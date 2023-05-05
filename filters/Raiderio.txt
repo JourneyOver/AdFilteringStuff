@@ -1,28 +1,8 @@
 ! Title: 🎛 Raider.io stuff
-! Version: 01November2022v1
+! Version: 04May2023v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
 ! Remove "Remove All Ads / Report Ad" stuff from top bar and side bar
-raider.io##.slds-align--absolute-center.slds-p-around--medium.rio-hidden--small.slds-text-align--center
-raider.io##.slds-p-bottom--x-large.rio-footer--bg > .slds-align--absolute-center.slds-p-around--medium.rio-hidden--small
-raider.io###raiderio_300x600_300x250_Right
-raider.io###raiderio_300x600_300x250_Right_2
-
-! Remove the "anyclip" leftover stuff
-||raider.io/anyclip.html$subdocument
-raider.io##.fa-times-circle.fa
-raider.io##.fa-times.fa
-raider.io##.larger.rio-vert-minilink.slds-clearfix
-raider.io##.rio-shadow--large.d-inline-block.slds-text-align--center
-
-! Remove Patreon banners
-raider.io##.slds-medium-nowrap.slds-wrap.slds-grid.slds-text-heading--medium.slds-text-align--center.slds-p-around--small.rio-panel--patreon
-raider.io##.slds-medium-nowrap.slds-wrap.slds-grid.slds-text-align--center.slds-p-around--small.rio-panel--patreon
-raider.io##.slds-p-around--x-small.rio-hidden--small.slds-text-align--center
-raider.io##.fresnel-greaterThanOrEqual-xl.rio-right-pane.slds-shrink-none.slds-grow-none.slds-col > .slds-text-align--center > .slds-text-align--left.slds-p-around--small.rio-background--header.rio-block-message.rio-hidden--small
-raider.io##.sticky-inner-wrapper > .slds-text-align--center > .slds-text-align--left.slds-p-around--small.rio-background--header.rio-block-message.rio-hidden--small
-raider.io##.slds-medium-nowrap.slds-wrap.slds-grid.slds-text-align--center.rio-panel--patreon
-raider.io##.fresnel-greaterThan-sm.fresnel-container > .slds-m-bottom--large
-radier.io##.fresnel-greaterThanOrEqual-xl.rio-right-pane.slds-shrink-none.slds-grow-none.slds-col > div > section.slds-text-align--center > .slds-text-align--left.slds-p-around--small.rio-background--header.rio-block-message.rio-hidden--small
-raider.io##.fresnel-greaterThanOrEqual-xl.rio-right-pane.slds-shrink-none.slds-grow-none.slds-col > div > section.slds-text-align--center > .slds-text-align--left.slds-p-around--small.rio-background--header.rio-block-message.rio-hidden--small
+raider.io##.rio-block-message:has-text(HELP SUPPORT THE SITE YOU LOVE)
+raider.io##.fresnel-greaterThan-sm.fresnel-container > .slds-m-bottom--medium
