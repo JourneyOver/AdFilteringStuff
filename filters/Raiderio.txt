@@ -1,8 +1,0 @@
-! Title: 🎛 Raider.io stuff
-! Version: 04May2023v1
-! Expires: 5 days
-! —————————————————————————————————————————
-
-! Remove "Remove All Ads / Report Ad" stuff from top bar and side bar
-raider.io##.rio-block-message:has-text(HELP SUPPORT THE SITE YOU LOVE)
-raider.io##.fresnel-greaterThan-sm.fresnel-container > .slds-m-bottom--medium

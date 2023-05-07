@@ -1,14 +1,14 @@
 ! Title: 🏡 Personal List
-! Version: 31May2022v1-Personal
+! Version: 07May2023v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
 ! Start Sublists
-!#include filters/Raiderio.txt
 !#include filters/Reddit.txt
 !#include filters/RickrollLinkIdentifier.txt
 !#include filters/TA.txt
 !#include filters/TRN.txt
+!#include filters/wowfilters.txt
 !#include filters/Youtube.txt
 ! End Sublists
 
@@ -23,15 +23,7 @@ metagamerscore.com###aff_box
 backloggery.com###linkbox
 
 ! Removes the "upgrade to office 365" box
-outlook.live.com##._4EQjiwXF4KIhqby_Qqf8J
-outlook.live.com##._2_1jS9rVrPuzoS0TkWEtIk
-outlook.live.com##.tTgHI
-
-! Removes side bar asking to sign up for "Ad-Free Outlook"
-outlook.live.com##._1TpU2KF6f_EeQiytBaYj8I > ._3_hHr3kfEhbNYRFM5YJxH9
-outlook.live.com##._1xCBLVKl1qp6BB2jT7GN5b > ._3_hHr3kfEhbNYRFM5YJxH9
-outlook.live.com##._1dBL6mV6xRANqjh_Z8BjN6 > ._1fti_QgAzqGWPGlqh_FSvI
-outlook.live.com##.AK_my > .pBKjV
+outlook.live.com##div>button>div>span:has-text(/OneDrive|365/)
 
 ! Removes the video player from the side panel
 gbatemp.net##.with_undefined.sidebar > div:nth-of-type(2)
@@ -61,26 +53,11 @@ reactiongaming.us##.samAdBlockDetected .p-body-pageContent, .samAdBlockDetected 
 ! Block ad that appears on videos
 vaughn.live##.MvnAbvsLowerThirdWrapper
 
-! Remove "Sign up for Raidbots Premium!" message
-www.raidbots.com##.Message
-
-! Remove "Sign up for wowhead Premium!" banner
-www.wowhead.com##.premium-promo-row
-
 ! Removes "Downloads for non-premium members are capped at 2MB/s" banner
 www.nexusmods.com##.container.premium-banner
 www.nexusmods.com##.areplacer
 ! Sign up for premium
 www.nexusmods.com##.background-2.premium-block--upgrade.premium-block
-
-! Removes a few annoyances on wowlazymacros
-||twitch.tv^$3p,domain=wowlazymacros.com
-wowlazymacros.com##.lazy__footer
-wowlazymacros.com##.banner-box
-wowlazymacros.com##[href*="exitl.ag"],[href*="zygorguides.com"]
-
-! Removes ad containers on wago.io
-wago.io##*.wago-ad-container.md-theme-default.md-card
 
 ! Removes the blank banner spot caused by ublock origin
 thunderstore.io###header-banner-desktop

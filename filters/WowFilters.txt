@@ -1,0 +1,25 @@
+! Title: 🎛 WoW Filters
+! Version: 07May2023v1
+! Expires: 5 days
+! —————————————————————————————————————————
+
+! Remove "Remove All Ads / Report Ad" stuff from top bar and side bar for raider.io
+raider.io##.rio-block-message:has-text(HELP SUPPORT THE SITE YOU LOVE)
+raider.io##.fresnel-greaterThan-sm.fresnel-container > .slds-m-bottom--medium
+
+! Removes ad containers on wago.io
+wago.io##.wago-in-article-ad-container
+wago.io##.wago-recovery-container:has-text(Ad blocker detected)
+
+! Removes a few annoyances on wowlazymacros
+||twitch.tv^$3p,domain=wowlazymacros.com
+wowlazymacros.com##.lazy__footer
+wowlazymacros.com##.banner-box
+wowlazymacros.com##[href*="exitl.ag"],[href*="zygorguides.com"]
+
+! Removes "disable adblock" notice on warcraftlogs
+www.warcraftlogs.com###top-banner-fallback
+www.warcraftlogs.com###bottom-banner-fallback
+www.warcraftlogs.com###top-banner
+www.warcraftlogs.com###ad-side-rail-atf__playwire > .playwire-ad__fallback
+www.warcraftlogs.com###bottom-banner
