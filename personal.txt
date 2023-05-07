@@ -8,7 +8,7 @@
 !#include filters/RickrollLinkIdentifier.txt
 !#include filters/TA.txt
 !#include filters/TRN.txt
-!#include filters/wowfilters.txt
+!#include filters/WowFilters.txt
 !#include filters/Youtube.txt
 ! End Sublists
 
