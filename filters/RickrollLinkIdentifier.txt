@@ -1,5 +1,5 @@
 ! Title: 🎙 Rickroll Link Identifier
-! Version: 07May2023v1
+! Version: 20December2023v1
 ! Expires: 10 days
 ! Description: So you're browsing Reddit or Twitch, and you're seeing an interesting info link? Well… about that link… this list will turn links to YouTube uploads of Rick Astley's «Never Gonna Give You Up» into a bright red colour, thus helping you steer clear of hopefully being rickrolled.
 ! —————————————————————————————————————————
@@ -8,6 +8,7 @@
 *##a[href*="/watch?v=oHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=p7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=iik25wqIuFo"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="/watch?v=CAZ8kTQ49c8"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=-51AfyMqnpI"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=cvh0nX08nRw"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="/watch?v=V-_O7nl0Ii0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
@@ -35,6 +36,7 @@
 *##a[href*="%2Fwatch%3Fv%3DoHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="%2Fwatch%3Fv%3Dp7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="%2Fwatch%3Fv%3Diik25wqIuFo"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="%2Fwatch%3Fv%3DCAZ8kTQ49c8"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="%2Fwatch%3Fv%3D-51AfyMqnpI"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="%2Fwatch%3Fv%3Dcvh0nX08nRw"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="%2Fwatch%3Fv%3DV-_O7nl0Ii0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
@@ -62,6 +64,7 @@
 *##a[href*="youtu.be/oHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtu.be/p7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtu.be/iik25wqIuFo"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtu.be/CAZ8kTQ49c8"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtu.be/-51AfyMqnpI"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtu.be/cvh0nX08nRw"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtu.be/V-_O7nl0Ii0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
@@ -89,6 +92,7 @@
 *##a[href*="youtube-nocookie.com/embed/oHg5SJYRHA0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtube-nocookie.com/embed/p7YXXieghto"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtube-nocookie.com/embed/iik25wqIuFo"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
+*##a[href*="youtube-nocookie.com/embed/CAZ8kTQ49c8"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtube-nocookie.com/embed/-51AfyMqnpI"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtube-nocookie.com/embed/cvh0nX08nRw"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
 *##a[href*="youtube-nocookie.com/embed/V-_O7nl0Ii0"]::before:style(content: "(Warning: Rickroll) " !important; color: #E6000D !important; visibility: visible)
@@ -121,6 +125,7 @@
 ||youtube.com/watch?v=oHg5SJYRHA0^
 ||youtube.com/watch?v=p7YXXieghto^
 ||youtube.com/watch?v=iik25wqIuFo^
+||youtube.com/watch?v=CAZ8kTQ49c8^
 ||youtube.com/watch?v=-51AfyMqnpI^
 ||youtube.com/watch?v=cvh0nX08nRw^
 ||youtube.com/watch?v=V-_O7nl0Ii0^
@@ -148,6 +153,7 @@
 ||youtube.com./watch?v=oHg5SJYRHA0^
 ||youtube.com./watch?v=p7YXXieghto^
 ||youtube.com./watch?v=iik25wqIuFo^
+||youtube.com./watch?v=CAZ8kTQ49c8^
 ||youtube.com./watch?v=-51AfyMqnpI^
 ||youtube.com./watch?v=cvh0nX08nRw^
 ||youtube.com./watch?v=V-_O7nl0Ii0^
@@ -175,6 +181,7 @@
 ||youtu.be/oHg5SJYRHA0^
 ||youtu.be/p7YXXieghto^
 ||youtu.be/iik25wqIuFo^
+||youtu.be/CAZ8kTQ49c8^
 ||youtu.be/-51AfyMqnpI^
 ||youtu.be/cvh0nX08nRw^
 ||youtu.be/V-_O7nl0Ii0^

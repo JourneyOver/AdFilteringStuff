@@ -1,5 +1,5 @@
 ! Title: ▶️ Youtube stuff
-! Version: 29May2022v1
+! Version: 20December2023v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
@@ -7,6 +7,12 @@
 @@||s.youtube.com/api/stats/watchtime*
 https://www.reddit.com/r/uBlockOrigin/comments/uyfrwm/youtube_watched_history_not_working_properly/
 @@||www.youtube.com/generate_204$xhr,domain=www.youtube.com
+
+! Youtube Anti-Adblock https://www.reddit.com/r/pcmasterrace/comments/14nm5lv/youtubes_new_adblock_policy/
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 
 ! Block youtube end cards
 www.youtube.com##.ytp-ce-element-show

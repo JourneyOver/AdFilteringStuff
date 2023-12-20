@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 07May2023v1-Personal
+! Version: 20December2023v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -11,6 +11,10 @@
 !#include filters/WowFilters.txt
 !#include filters/Youtube.txt
 ! End Sublists
+
+! Wikipedia fundraising
+wikipedia.org##.cn-fundraising
+wikipedia.org##.frb
 
 ! Removes the "please disable adblock" message
 steamfriends.info##.alert-danger.alert.adblock-msg
