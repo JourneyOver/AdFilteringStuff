@@ -1,5 +1,5 @@
 ! Title: ▶️ Youtube stuff
-! Version: 20December2023v1
+! Version: 16March2024v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
@@ -20,3 +20,12 @@ www.youtube.com##.ytp-ce-element-show
 ! Hides certain Youtube Playlists
 www.youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLMFoDoF5WCjivNyZjSOWfzjD4TyFbvqhu"])
 www.youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLAi1BMiHavH9Av8WcaQQyNL9SoaqC5pHl"])
+
+! Remove youtube live chat and gain back the empty space it leaves.
+youtube.com##+js(ra, live-chat-present-and-expanded|panel-expanded|fixed-panels|watch-while-panels-active, ytd-watch-flexy, stay)
+youtube.com##+js(set-attr, ytd-watch-flexy, is-two-columns_)
+youtube.com###chat-container
+||youtube.com/live_chat
+
+! Remove Youtube Ads embedded at the top row of related videos
+www.youtube.com##.ytd-ad-slot-renderer
