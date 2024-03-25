@@ -1,5 +1,5 @@
 ! Title: 🎛 WoW Filters
-! Version: 24March2024v1
+! Version: 24March2024v2
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
@@ -18,20 +18,11 @@ wowlazymacros.com##.banner-box
 wowlazymacros.com##[href*="exitl.ag"],[href*="zygorguides.com"]
 
 ! Removes "disable adblock" notice on warcraftlogs
-warcraftlogs.com###top-banner-fallback
-warcraftlogs.com###bottom-banner-fallback
-warcraftlogs.com###top-banner
-warcraftlogs.com###ad-side-rail-atf__playwire > .playwire-ad__fallback
-warcraftlogs.com###bottom-banner
-warcraftlogs.com##.ad-sticky-footer--narrow-side-rail.ad-sticky-footer
-warcraftlogs.com##.ad-placement-sticky-footer--playwire.ad-placement-sticky-footer
-warcraftlogs.com###right-ad-box
-warcraftlogs.com###gear-box-ad
+warcraftlogs.com##.ad-placement
+warcraftlogs.com##.ad-placement-sticky-footer
 warcraftlogs.com###subscription-message-tile-container
-warcraftlogs.com##.side-rail-ads--home.side-rail-ads
-warcraftlogs.com##.ad-placement--side-rail-narrow.ad-placement
-warcraftlogs.com##.ad-placement--side-rail-wide.ad-placement
 
 ! Removes "disable adblock" notice on archon
-archon.gg##.ArchonLayout_containerSidebarSticky__lOTgZ.Advertisements_advertisementsRounded__FakKo.Advertisements_advertisementsChrome__d1n8C.Advertisements_advertisements__xYKmM
+archon.gg##.Advertisements_advertisements__xYKmM
 archon.gg##.ArchonLayout_stickyFooterAd__96TDR
+archon.gg##.Article_stickyFooterAd__pQ8N0
