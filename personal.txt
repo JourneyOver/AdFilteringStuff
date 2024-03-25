@@ -1,5 +1,5 @@
 ! Title: 🏡 Personal List
-! Version: 20December2023v1-Personal
+! Version: 24March2024v1-Personal
 ! Expires: 12 hours
 ! —————————————————————————————————————————
 
@@ -58,10 +58,10 @@ reactiongaming.us##.samAdBlockDetected .p-body-pageContent, .samAdBlockDetected 
 vaughn.live##.MvnAbvsLowerThirdWrapper
 
 ! Removes "Downloads for non-premium members are capped at 2MB/s" banner
-www.nexusmods.com##.container.premium-banner
-www.nexusmods.com##.areplacer
+nexusmods.com##.container.premium-banner
+nexusmods.com##.areplacer
 ! Sign up for premium
-www.nexusmods.com##.background-2.premium-block--upgrade.premium-block
+nexusmods.com##.background-2.premium-block--upgrade.premium-block
 
 ! Removes the blank banner spot caused by ublock origin
 thunderstore.io###header-banner-desktop
@@ -70,7 +70,7 @@ thunderstore.io###header-banner-mobile
 thunderstore.io##.mt-3.alert-info.alert
 
 ! Block Ublock censor image
-||www.elitepvpers.com/images/ublock-censor-regime.png$image
+||elitepvpers.com/images/ublock-censor-regime.png$image
 
 ! Block all "pro" links (blocks ads as well)
 letterboxd.com##[href^="/pro/"]

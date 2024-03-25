@@ -1,12 +1,13 @@
 ! Title: ▶️ Youtube stuff
-! Version: 16March2024v1
+! Version: 24March2024v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
 ! Add exception to EasyList rule to let YouTube track video progress
 @@||s.youtube.com/api/stats/watchtime*
 https://www.reddit.com/r/uBlockOrigin/comments/uyfrwm/youtube_watched_history_not_working_properly/
-@@||www.youtube.com/generate_204$xhr,domain=www.youtube.com
+@@||youtube.com/generate_204$xhr,domain=youtube.com
+@@||youtube.com/youtubei/v1/log\_event$xhr,domain=youtube.com
 
 ! Youtube Anti-Adblock https://www.reddit.com/r/pcmasterrace/comments/14nm5lv/youtubes_new_adblock_policy/
 youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
@@ -15,11 +16,11 @@ youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
 youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 
 ! Block youtube end cards
-www.youtube.com##.ytp-ce-element-show
+youtube.com##.ytp-ce-element-show
 
 ! Hides certain Youtube Playlists
-www.youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLMFoDoF5WCjivNyZjSOWfzjD4TyFbvqhu"])
-www.youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLAi1BMiHavH9Av8WcaQQyNL9SoaqC5pHl"])
+youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLMFoDoF5WCjivNyZjSOWfzjD4TyFbvqhu"])
+youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLAi1BMiHavH9Av8WcaQQyNL9SoaqC5pHl"])
 
 ! Remove youtube live chat and gain back the empty space it leaves.
 youtube.com##+js(ra, live-chat-present-and-expanded|panel-expanded|fixed-panels|watch-while-panels-active, ytd-watch-flexy, stay)
@@ -28,4 +29,4 @@ youtube.com###chat-container
 ||youtube.com/live_chat
 
 ! Remove Youtube Ads embedded at the top row of related videos
-www.youtube.com##.ytd-ad-slot-renderer
+youtube.com##.ytd-ad-slot-renderer
