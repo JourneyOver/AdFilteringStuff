@@ -1,10 +1,17 @@
 ! Title: 🎛 TrueAchievements - TrueSteamAchievements - TrueTrophies adblock fixes
-! Version: 24March2024v1
+! Version: 22May2025v1
 ! Expires: 5 days
 ! Description: Removes all random mistakes from removing ads
 ! —————————————————————————————————————————
 
 ! General (seen on all 3)
+
+!
 trueachievements.com##.nn_player_w
 truetrophies.com##.nn_player_w
 truesteamachievements.com##.nn_player_w
+
+! Adblock overlay
+trueachievements.com##.ta-ab-overlay
+truetrophies.com##.ta-ab-overlay
+truesteamachievements.com##.ta-ab-overlay
