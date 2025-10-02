@@ -1,17 +1,30 @@
 ! Title: 🎛 TrueAchievements - TrueSteamAchievements - TrueTrophies adblock fixes
-! Version: 22May2025v1
+! Version: 02October2025v1
 ! Expires: 5 days
-! Description: Removes all random mistakes from removing ads
 ! —————————————————————————————————————————
 
 ! General (seen on all 3)
-
-!
-trueachievements.com##.nn_player_w
-truetrophies.com##.nn_player_w
-truesteamachievements.com##.nn_player_w
-
-! Adblock overlay
-trueachievements.com##.ta-ab-overlay
-truetrophies.com##.ta-ab-overlay
-truesteamachievements.com##.ta-ab-overlay
+trueachievements.com##[href="/gopro"]
+truetrophies.com##[href="/gopro"]
+truesteamachievements.com##[href="/gopro"]
+trueachievements.com##.ad-wrap
+truetrophies.com##.ad-wrap
+truesteamachievements.com##.ad-wrap
+trueachievements.com##.dyn-lb
+truetrophies.com##.dyn-lb
+truesteamachievements.com##.dyn-lb
+trueachievements.com##.lb_holder
+truetrophies.com##.lb_holder
+truesteamachievements.com##.lb_holder
+trueachievements.com##.pw_player_w
+truetrophies.com##.pw_player_w
+truesteamachievements.com##.pw_player_w
+trueachievements.com###nn_player
+truetrophies.com###nn_player
+truesteamachievements.com###nn_player
+trueachievements.com###nn_skinl
+truetrophies.com###nn_skinl
+truesteamachievements.com###nn_skinl
+trueachievements.com###nn_skinr
+truetrophies.com###nn_skinr
+truesteamachievements.com###nn_skinr
