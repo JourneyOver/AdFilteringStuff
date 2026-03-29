@@ -1,5 +1,5 @@
 # Title: Whitelist
-# Last modified: 20 Jan 2022
+# Last modified: 29 Mar 2026
 #
 # =====================================================
 
@@ -28,3 +28,7 @@ statics-marketingsites-eus-ms-com.akamaized.net
 
 # addons.wago.io for WoWUP
 https://cdn.intergient.com/*
+
+# Twitch Spade/Beacon
+spade.twitch.tv
+beacon.twitch.tv
