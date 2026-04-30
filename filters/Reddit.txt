@@ -1,11 +1,7 @@
 ! Title: 🎛 Reddit stuff
-! Version: 24March2024v1
+! Version: 30April2026v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
-
-! Remove chat
-||reddit.com/chat/minimize$subdocument
-reddit.com###chat
 
 ! Remove premium banner
 reddit.com##.premium-banner
