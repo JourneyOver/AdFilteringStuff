@@ -1,5 +1,5 @@
 ! Title: 🎛 TrueAchievements - TrueSteamAchievements - TrueTrophies adblock fixes
-! Version: 02October2025v1
+! Version: 05October2026v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
@@ -16,6 +16,9 @@ truesteamachievements.com##.dyn-lb
 trueachievements.com##.lb_holder
 truetrophies.com##.lb_holder
 truesteamachievements.com##.lb_holder
+trueachievements.com##.nn_player_w
+truetrophies.com##.nn_player_w
+truesteamachievements.com##.nn_player_w
 trueachievements.com##.pw_player_w
 truetrophies.com##.pw_player_w
 truesteamachievements.com##.pw_player_w
@@ -28,3 +31,15 @@ truesteamachievements.com###nn_skinl
 trueachievements.com###nn_skinr
 truetrophies.com###nn_skinr
 truesteamachievements.com###nn_skinr
+trueachievements.com###pw_1by1
+truetrophies.com###pw_1by1
+truesteamachievements.com###pw_1by1
+trueachievements.com###pw_skinl
+truetrophies.com###pw_skinl
+truesteamachievements.com###pw_skinl
+trueachievements.com###pw_skinr
+truetrophies.com###pw_skinr
+truesteamachievements.com###pw_skinr
+trueachievements.com###ta-ab-overlay
+truetrophies.com###ta-ab-overlay
+truesteamachievements.com###ta-ab-overlay

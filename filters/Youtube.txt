@@ -1,19 +1,13 @@
 ! Title: ▶️ Youtube stuff
-! Version: 18January2025v1
+! Version: 05October2026v1
 ! Expires: 5 days
 ! —————————————————————————————————————————
 
 ! Add exception to EasyList rule to let YouTube track video progress
 @@||s.youtube.com/api/stats/watchtime*
-https://www.reddit.com/r/uBlockOrigin/comments/uyfrwm/youtube_watched_history_not_working_properly/
+! https://www.reddit.com/r/uBlockOrigin/comments/uyfrwm/youtube_watched_history_not_working_properly/
 @@||youtube.com/generate_204$xhr,domain=youtube.com
 @@||youtube.com/youtubei/v1/log\_event$xhr,domain=youtube.com
-
-! Youtube Anti-Adblock https://www.reddit.com/r/pcmasterrace/comments/14nm5lv/youtubes_new_adblock_policy/
-youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
 
 ! Hides certain Youtube Playlists
 youtube.com##ytd-compact-playlist-renderer:has(> a[href*="&list=PLMFoDoF5WCjivNyZjSOWfzjD4TyFbvqhu"])
@@ -32,5 +26,6 @@ youtube.com##.ytd-ad-slot-renderer
 ! Taken from https://github.com/misspent/uBlock-Origin-Information
 ! Applies to main comments | (Add "\" before the "'" to make it apply: I\’m subbed) & Comment replies
 youtube.com##ytd-page-manager ytd-watch-flexy #primary.ytd-watch-flexy #comment:has-text(/I\'m subbing | I\’m subbed|Buy ONE Get ONE FREE|use my code|Don\'t forget to visit|The sponsor|first purchase|Subscribe|Download/i):upward(ytd-comment-thread-renderer)
+youtube.com##ytd-page-manager ytd-watch-flexy #primary.ytd-watch-flexy #replies ytd-comment-view-model:has(#author-text):has-text(/UTTP|NWO|UTube|Police|Troll|ZNTP|CABT|Joseph_14441|YFGA/)
 ! Only applies to replies of comments
-youtube.com##ytd-page-manager ytd-watch-flexy #primary.ytd-watch-flexy ytd-comment-thread-renderer #expander-contents ytd-comment-view-model:has-text(/Here is new fu | Here is the fu | This is the clip | Finally it’s here | Finally Here is the fu | Telegram | Teleegram | I forgot to close the camera | LETS BE HONEST WE ALL REMEMBER | ТАР 0N MY РIC | I upload funny | read my name | Read My Profile | you will see it | Claim your prize | Link to the clip | MY CONTENT IS SO | Look at my banner | Lucky prize winners | IM SUBBING EVERYONE | DONT READ MY PROFILE | JJ said my music was fire on my page |first purchase|Don\'t translate| translate | My content is | are better than|Django|your dad|I WANT TO BE THE MOST|parents said if I hit|SI TNETNOC YM|oediv retteb ekam|retteb si tnetnoc ym|content is better|erutam era sdiK|UTTP|UTTP|RETTEB YAW SI TNETNOC|erutam era sdiK|IS WAY BETTER|IN MY SERVER|THERE IS A VIDEO|ailihpodep ezilamroN|I AM WAY BETTER|CONTENT IS BETTER|videos are better|Tis a bot|shut up bot|in a video|Its finally completed|youtu.be|I MADE A DISS TRACK|use my code|Hi guys|DO NOT REDEEM|WHY DID YOU REDEE/)
+youtube.com##ytd-page-manager ytd-watch-flexy #primary.ytd-watch-flexy ytd-comment-thread-renderer #expander-contents ytd-comment-view-model:has-text(/Here is new fu | Here is the fu | This is the clip | Finally it’s here | Finally Here is the fu | Telegram | Teleegram | I forgot to close the camera | LETS BE HONEST WE ALL REMEMBER | ТАР 0N MY РIC | I upload funny | read my name | Read My Profile | you will see it | Claim your prize | Link to the clip | MY CONTENT IS SO | Look at my banner | Lucky prize winners | IM SUBBING EVERYONE | DONT READ MY PROFILE | JJ said my music was fire on my page |first purchase|Don\'t translate| translate | My content is | are better than|Django|your dad|I WANT TO BE THE MOST|parents said if I hit|SI TNETNOC YM|oediv retteb ekam|retteb si tnetnoc ym|content is better|erutam era sdiK|UTTP|UT‎TP|RETTEB‎ YAW‎ SI‎ TNETNOC|erutam‎ era sdiK|IS WAY BETTER|IN MY SERVER|THERE IS A VIDEO|ailihp‎odep‎ ezila‎mroN|I AM WAY BETTER|CONTENT IS BETTER|videos‎ are‎ bet‎ter|naht retteb hcuM|RETTEB YAW ERA|AGFY|Tis a bot|shut up bot|in a video|Its finally completed|Read my name|youtu.be|I MADE A DISS TRACK|use my code|Hi guys|DO NOT REDEEM|WHY DID YOU REDEE|the chemical projection of signal stream/)
